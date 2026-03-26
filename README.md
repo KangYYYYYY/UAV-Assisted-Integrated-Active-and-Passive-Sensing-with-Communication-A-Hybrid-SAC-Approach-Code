@@ -5,6 +5,9 @@ This repository contains the source code for the paper: **"UAV-Assisted Integrat
 [![Paper](https://img.shields.io/badge/IEEE-Paper-blue.svg)](https://ieeexplore.ieee.org/abstract/document/11208810)
 [![DOI](https://img.shields.io/badge/DOI-10.1109%2FTVT.2025.3623633-green.svg)](https://doi.org/10.1109/TVT.2025.3623633)
 
+## Abstract
+
+As the low-altitude economy rapidly develops, a growing number of unmanned aerial vehicles (UAVs) will participate in specific missions that require periodic data from ground base stations (GBSs) to ensure safe flight operations. Such UAVs, due to their low communication demand, are ideal candidates to serve as sensing receivers during their free time, thereby enhancing environmental sensing performance. In this paper, we present a UAV-assisted framework that fuses active and passive sensing with downlink communication, pairing a GBS, a communication UAV following a pre-planned trajectory and a sensed UAV at an unknown position. We derive an analytical Cramér-Rao bound that unifies echoes collected at the GBS (active sensing) and at the airborne relay (passive sensing) to quantify three-dimensional localization accuracy, and cast the joint design of beamforming, power allocation and signal-frame scheduling as a mixed discrete-continuous optimization. A hybrid Soft Actor-Critic (hybrid-SAC) algorithm is proposed to address this problem. Simulation results demonstrate that the proposed method achieves a 36.5% improvement in sensing performance, outperforms DRL benchmarks in convergence, and surpasses traditional methods in sensing accuracy with lower computational complexity.
 
 ## Usage
 
@@ -24,7 +27,8 @@ If you find this code or our work useful in your research, please consider citin
   author={Yan, Kang and Xiang, Luping and Zheng, Kang and Hu, Jie and Yang, Kun and Liu, Jun},
   journal={IEEE Transactions on Vehicular Technology},
   year={2025},
-  publisher={IEEE}
+  publisher={IEEE},
+  doi={10.1109/TVT.2025.3623633}
 }
 ```
 
