@@ -11,7 +11,7 @@ This repository contains the source code for the paper: **"UAV-Assisted Integrat
 To train the model and reproduce the results, you can run the following command:
 
 ```bash
-python main.py algo="hsac" learning_rate=0.0003 seed=0 bs_power=5 comm_uav_data_min=48000000 T=16 uav_assisted=1 --save
+python main.py algo="hsac" learning_rate=0.01 seed=0 bs_power=5 comm_uav_data_min=8000000 T=16 uav_assisted=1  --save
 ```
 
 ## Citation
