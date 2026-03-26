@@ -1,0 +1,13 @@
+seed:
+  # whether to use the specified seed
+  seed_specify: True
+  # seed
+  seed: 1
+
+device:
+  # whether to use CUDA
+  cuda: True
+  # whether to set CUDA deterministic
+  cuda_deterministic: True
+#  # arg to torch.set_num_threads
+#  torch_threads: 4

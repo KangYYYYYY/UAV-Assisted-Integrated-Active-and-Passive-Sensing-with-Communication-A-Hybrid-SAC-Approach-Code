@@ -1,0 +1,43 @@
+learning_rate: 0.0003
+
+algo: "hsac"
+kind: "learning_rate"
+seed: 0
+
+max_episode_steps: 20
+
+channel_comm_gain_1m: -50
+channel_sens_gain_1m: -50
+band_width: 51200000
+
+bs_power: 5
+T: 16
+
+time: 0.1
+
+
+bs_tx_upa_x_num: 4
+bs_tx_upa_y_num: 4
+bs_rx_upa_x_num: 4
+bs_rx_upa_y_num: 4
+comm_uav_rx_upa_x_num: 4
+comm_uav_rx_upa_y_num: 4
+
+noise_power: -110
+
+sens_uav_rcs: 0.8
+
+total_step: 20
+
+crb_max: 10000.0
+
+comm_uav_data_min: 8000000
+
+punish_factor: [-1, -10.0]
+
+uav_assisted: 1
+
+
+rician_factor: 10
+
+evaluate_freq: 400
