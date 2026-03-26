@@ -32,3 +32,7 @@ If you find this code or our work useful in your research, please consider citin
 }
 ```
 
+## Contact
+
+If you have any questions or suggestions, please feel free to contact me at [kangyan@std.uestc.edu.cn](mailto:kangyan@std.uestc.edu.cn).
+
